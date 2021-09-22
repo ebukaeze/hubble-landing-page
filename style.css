@@ -81,7 +81,7 @@ body {
   cursor: pointer;
   color: hsl(257, 41%, 26%);
   transition: 0.3s ease;
-  box-shadow: 0 0.3rem 0.15rem 0.2rem rgb(0 0 0 / 0.2);
+  box-shadow: 0 0.3rem 0.15rem 0.25rem rgb(0 0 0 / 0.2);
 }
 .btn-register:hover {
   background: hsl(300, 69%, 71%);
