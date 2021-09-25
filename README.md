@@ -13,6 +13,10 @@ Users should be able to:
 
 ![hubble](./huddle.png);
 
+### Live Link
+
+- Solution URL: [Huddle landing page]https://huddle-main-page.herokuapp.com/)
+
 ### Built with
 
 - Semantic HTML5 markup
