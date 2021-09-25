@@ -145,7 +145,7 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    height: 440px;
+    height: 500px;
   }
   .main {
     height: 100vh;
@@ -169,6 +169,7 @@ body {
   }
   .img {
     margin-top: 0;
+    transform: scale(0.5);
   }
   .header {
     padding: 0.5rem;
@@ -209,6 +210,7 @@ body {
     justify-content: center;
     height: 5%;
     padding: 0;
+    margin: 0;
   }
 }
 @media screen and (max-width: 375px) {
@@ -251,13 +253,26 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    transform: scale(0.4);
   }
   .social {
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    margin-right: 1rem;
+  }
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
     margin: 0 auto;
-    /* margin-right: 1rem; */
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
